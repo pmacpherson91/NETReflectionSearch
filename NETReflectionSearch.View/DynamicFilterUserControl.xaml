@@ -11,10 +11,12 @@
             <ColumnDefinition Width="20" />
             <ColumnDefinition Width="160" />
             <ColumnDefinition Width="*" />
+            <ColumnDefinition Name="FlagColumnDef" Width="0" />
         </Grid.ColumnDefinitions>
 
         <Button Name="RemoveFilterButton" Grid.Column="0" Content="-" HorizontalAlignment="Left" Width="20" Background="#FF9999" Margin="0 2 0 2" FontWeight="Bold" />
-        <ComboBox Name="FiltersComboBox" Grid.Column="1" Margin="4 2 2 2" />
-        <StackPanel Name="FilterPanel" Grid.Column="2" Margin="2 2 2 2" />
+        <ComboBox Name="FiltersComboBox" Grid.Column="1" Margin="4 2 2 2" SelectionChanged="FiltersComboBox_SelectionChanged" />
+        <TextBox Name="FilterText" Grid.Column="2" Margin="2 2 2 2" />
+        <CheckBox Name="FilterFlag" Grid.Column="3" Margin="2 2 2 2" VerticalContentAlignment="Center" />
     </Grid>
 </UserControl>

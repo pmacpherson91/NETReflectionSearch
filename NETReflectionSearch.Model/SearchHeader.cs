@@ -5,9 +5,10 @@ namespace NETReflectionSearch.Model
 {
 	public class SearchHeader
 	{
-		public void Search(IEnumerable<string> directories, IEnumerable<SearchFilter> filters)
+		public SearchResult[] Search(IEnumerable<string> directories, IEnumerable<SearchFilter> filters)
 		{
 			Assembly.LoadFrom("");
+			return null;
 		}
 	}
 }

@@ -14,3 +14,5 @@ E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSe
 E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View.exe
 E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View.pdb
 E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View.csprojResolveAssemblyReference.cache
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\bin\Debug\NETReflectionSearch.Model.dll
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\bin\Debug\NETReflectionSearch.Model.pdb

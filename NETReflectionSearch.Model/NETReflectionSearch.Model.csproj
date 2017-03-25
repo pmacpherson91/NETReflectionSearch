@@ -46,6 +46,7 @@
     <Compile Include="Filters\SubclassFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchHeader.cs" />
+    <Compile Include="SearchResult.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

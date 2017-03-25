@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NETReflectionSearch.View"
         mc:Ignorable="d"
-        Title=".NET Reflection Search" Height="350" Width="525" Background="#FFDAE3EE">
+        Title=".NET Reflection Search" Height="600" Width="800" Background="#FFDAE3EE" MinWidth="800" MinHeight="600">
     <Border Padding="10">
 
 
@@ -17,7 +17,7 @@
                 <!-- filters added here -->
             </StackPanel>
             <Button Content="+" HorizontalAlignment="Left" Width="20" Background="#99FF99" Margin="0 2 0 2" FontWeight="Bold" Click="AddFilterButton_Click" />
-            <Button Content="Search" HorizontalAlignment="Left" Width="100" Background="#CCCCCC" Margin="0 2 0 2" />
+            <Button Content="Search" HorizontalAlignment="Left" Width="100" Background="#CCCCCC" Margin="0 2 0 2" Click="SearchButton_Click" />
             <TextBlock Text="Results" FontWeight="Bold" Margin="0 2 0 2" />
 
             <Grid>

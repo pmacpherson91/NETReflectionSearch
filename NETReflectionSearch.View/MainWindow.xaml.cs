@@ -1,5 +1,7 @@
-﻿using System.Windows;
+﻿using System.Linq;
+using System.Windows;
 using System.Windows.Controls;
+using NETReflectionSearch.Model;
 
 namespace NETReflectionSearch.View
 {
@@ -30,6 +32,11 @@ namespace NETReflectionSearch.View
 			};
 
 			return handler;
+		}
+
+		private void SearchButton_Click(object sender, RoutedEventArgs e)
+		{
+			var results = new SearchHeader().Search(DirectoryText.Text.Split(','), FiltersStackPanel.Children.OfType<DynamicFilterUserControl>().Select(x => x.Filter));
 		}
 	}
 }

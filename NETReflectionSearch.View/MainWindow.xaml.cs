@@ -36,7 +36,17 @@ namespace NETReflectionSearch.View
 
 		private void SearchButton_Click(object sender, RoutedEventArgs e)
 		{
-			var results = new SearchHeader().Search(DirectoryText.Text.Split(','), FiltersStackPanel.Children.OfType<DynamicFilterUserControl>().Select(x => x.Filter));
+			foreach (var item in ResultsListView.Items.Cast<object>().ToArray())
+			{
+				ResultsListView.Items.Remove(item);
+			}
+
+			var results = new SearchHeader().Search(DirectoryText.Text.Split(','), RecursiveFlag.IsChecked.Value, FiltersStackPanel.Children.OfType<DynamicFilterUserControl>().Select(x => x.Filter));
+
+			foreach (var result in results)
+			{
+				ResultsListView.Items.Add(result);
+			}
 		}
 	}
 }

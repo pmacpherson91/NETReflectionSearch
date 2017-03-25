@@ -14,7 +14,7 @@ namespace NETReflectionSearch.Model
 
 		bool ImmediateSubclassesOnly { get; set; }
 
-		internal override bool IsMatch()
+		internal override bool IsMatch(Type searchType)
 		{
 			throw new NotImplementedException();
 		}

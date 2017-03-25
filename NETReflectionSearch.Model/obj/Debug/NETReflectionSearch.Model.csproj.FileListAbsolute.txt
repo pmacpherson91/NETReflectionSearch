@@ -3,3 +3,4 @@ E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\bin\Debug\NETReflectionS
 E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\obj\Debug\NETReflectionSearch.Model.csprojResolveAssemblyReference.cache
 E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\obj\Debug\NETReflectionSearch.Model.dll
 E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\obj\Debug\NETReflectionSearch.Model.pdb
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\bin\Debug\Mono.Cecil.dll

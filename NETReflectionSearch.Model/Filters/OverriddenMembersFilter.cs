@@ -12,7 +12,7 @@ namespace NETReflectionSearch.Model
 
 		string memberName = "Member name (name-only or namespace-qualified)";
 
-		internal override bool IsMatch()
+		internal override bool IsMatch(Type searchType)
 		{
 			throw new NotImplementedException();
 		}

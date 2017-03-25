@@ -7,26 +7,29 @@
         mc:Ignorable="d"
         Title=".NET Reflection Search" Height="600" Width="800" Background="#FFDAE3EE" MinWidth="800" MinHeight="600">
     <Border Padding="10">
-
-
-        <StackPanel>
-            <TextBlock Text="Search Directory (specify multiple by separating with a comma)" FontWeight="Bold" Margin="0 0 0 0" />
-            <TextBox Name="DirectoryText" Padding="2" Margin="0 2 0 2" />
-            <TextBlock Text="Filters" FontWeight="Bold" Margin="0 2 0 2" />
-            <StackPanel Name="FiltersStackPanel">
-                <!-- filters added here -->
+        <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="Auto">
+            <StackPanel DockPanel.Dock="Top">
+                <TextBlock Text="Search Directory (specify multiple by separating with a comma)" FontWeight="Bold" Margin="0 0 0 0" />
+                <TextBox Name="DirectoryText" Padding="2" Margin="0 2 0 2" />
+                <CheckBox Name="RecursiveFlag" Content="Search subfolders" Margin="0 2 0 2" />
+                <TextBlock Text="Filters" FontWeight="Bold" Margin="0 2 0 2" />
+                <StackPanel Name="FiltersStackPanel">
+                    <!-- filters added here -->
+                </StackPanel>
+                <Button Content="+" HorizontalAlignment="Left" Width="20" Background="#99FF99" Margin="0 2 0 2" FontWeight="Bold" Click="AddFilterButton_Click" />
+                <Button Content="Search" HorizontalAlignment="Left" Width="100" Background="#CCCCCC" Margin="0 2 0 2" Click="SearchButton_Click" />
+                <TextBlock Text="Results" FontWeight="Bold" Margin="0 2 0 2" />
             </StackPanel>
-            <Button Content="+" HorizontalAlignment="Left" Width="20" Background="#99FF99" Margin="0 2 0 2" FontWeight="Bold" Click="AddFilterButton_Click" />
-            <Button Content="Search" HorizontalAlignment="Left" Width="100" Background="#CCCCCC" Margin="0 2 0 2" Click="SearchButton_Click" />
-            <TextBlock Text="Results" FontWeight="Bold" Margin="0 2 0 2" />
-
             <Grid>
-                <ListView Name="ResultsListView" Grid.Row="0" Height="100">
-                    <!-- results here -->
+                <ListView Name="ResultsListView" Grid.Row="0" Height="Auto">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Assembly" Width="400" DisplayMemberBinding="{Binding AssemblyName}" />
+                            <GridViewColumn Header="Source File" Width="400" DisplayMemberBinding="{Binding SourceFile}" />
+                        </GridView>
+                    </ListView.View>
                 </ListView>
-
-                <!-- grid splitter -->
             </Grid>
-        </StackPanel>
+        </DockPanel>
     </Border>
 </Window>

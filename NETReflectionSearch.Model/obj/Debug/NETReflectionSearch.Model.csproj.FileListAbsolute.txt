@@ -1,0 +1,5 @@
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\bin\Debug\NETReflectionSearch.Model.dll
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\bin\Debug\NETReflectionSearch.Model.pdb
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\obj\Debug\NETReflectionSearch.Model.csprojResolveAssemblyReference.cache
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\obj\Debug\NETReflectionSearch.Model.dll
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.Model\obj\Debug\NETReflectionSearch.Model.pdb

@@ -1,0 +1,5 @@
+E:\gitsrc\NETReflectionSearch\DummyTestProject2\bin\Debug\DummyTestProject2.dll
+E:\gitsrc\NETReflectionSearch\DummyTestProject2\bin\Debug\DummyTestProject2.pdb
+E:\gitsrc\NETReflectionSearch\DummyTestProject2\obj\Debug\DummyTestProject2.dll
+E:\gitsrc\NETReflectionSearch\DummyTestProject2\obj\Debug\DummyTestProject2.pdb
+E:\gitsrc\NETReflectionSearch\DummyTestProject2\obj\Debug\DummyTestProject2.csprojResolveAssemblyReference.cache

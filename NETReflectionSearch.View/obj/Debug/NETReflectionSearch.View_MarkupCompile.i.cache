@@ -1,7 +1,7 @@
 ﻿NETReflectionSearch.View
 
 
-library
+winexe
 C#
 .cs
 E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\
@@ -9,12 +9,12 @@ NETReflectionSearch.View
 none
 false
 DEBUG;TRACE
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\App.xaml
+2-280019682
 
-11151548125
-
-82069763271
+10-1205262005
 13738642453
-MainWindow.xaml;
+DynamicFilterUserControl.xaml;MainWindow.xaml;
 
 False
 

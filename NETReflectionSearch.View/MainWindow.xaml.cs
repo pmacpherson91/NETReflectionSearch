@@ -24,5 +24,24 @@ namespace NETReflectionSearch.View
 		{
 			InitializeComponent();
 		}
+
+		private void AddFilterButton_Click(object sender, RoutedEventArgs e)
+		{
+			var filterControl = new DynamicFilterUserControl();
+			FiltersStackPanel.Children.Add(filterControl);
+			filterControl.RemoveFilterButton.Click += CreateRemoveClickHandler(filterControl);
+		}
+
+		RoutedEventHandler CreateRemoveClickHandler(DynamicFilterUserControl control)
+		{
+			RoutedEventHandler handler = null;
+			handler = (s, e) =>
+			{
+				FiltersStackPanel.Children.Remove(control);
+				((Button)s).Click -= handler;
+			};
+
+			return handler;
+		}
 	}
 }

@@ -1,0 +1,15 @@
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\DynamicFilterUserControl.g.cs
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\MainWindow.g.cs
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\App.g.cs
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View_MarkupCompile.cache
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View_MarkupCompile.lref
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\bin\Debug\NETReflectionSearch.View.exe.config
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\bin\Debug\NETReflectionSearch.View.exe
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\bin\Debug\NETReflectionSearch.View.pdb
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\DynamicFilterUserControl.baml
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\MainWindow.baml
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View.g.resources
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View.Properties.Resources.resources
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View.csproj.GenerateResource.Cache
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View.exe
+E:\gitsrc\NETReflectionSearch\NETReflectionSearch.View\obj\Debug\NETReflectionSearch.View.pdb
